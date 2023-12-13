@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="932f7df9974b711057e8f84de053af4b" label="SNStudents" max_length="40" name="x_1276100_portal_t_snstudents" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Company" max_length="40" name="company" reference="core_company" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Course Enrollment Date" mandatory="true" max_length="40" name="course_enrollment_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Course Name" max_length="32" name="course_name" reference="x_1276100_portal_t_sncourse" type="reference"/>
+        <element label="Email ID" max_length="40" name="email_id" type="email"/>
+        <element label="Last Name" mandatory="true" max_length="50" name="last_name" type="string"/>
+        <element label="Pincode" max_length="40" name="pincode" type="integer"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="First Name" mandatory="true" max_length="50" name="student_name" type="string"/>
+        <element label="Trainer Name" mandatory="true" max_length="40" name="trainer_name" reference="sys_user" type="string"/>
+        <index name="index">
+            <element name="course_name"/>
+        </index>
+    </element>
+</database>

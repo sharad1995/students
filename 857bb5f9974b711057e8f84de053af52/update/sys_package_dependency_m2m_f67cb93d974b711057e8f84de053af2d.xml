@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="ServiceNow Training" source="x_1276100_servicen">90c1ad7997c7711057e8f84de053af0e</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 06:58:07</sys_created_on>
+        <sys_id>f67cb93d974b711057e8f84de053af2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Portal Training" source="x_1276100_portal_t">857bb5f9974b711057e8f84de053af52</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 06:58:07</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
